@@ -1,0 +1,42 @@
+name: fada
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  geolocator: ^13.0.1
+
+
+  # 🔗 HTTP pour les appels REST API
+  http: ^1.2.2
+
+  # 💾 Stockage local pour l'ID utilisateur et les préférences
+  shared_preferences: ^2.3.2
+
+  # 🖼️ Pour la sélection et capture d’images
+
+
+  # 🌙 Icônes Cupertino (style iOS)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # 🧹 Bonnes pratiques et règles de code
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 📁 Ajoute ici tes images ou fichiers statiques si besoin :
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
